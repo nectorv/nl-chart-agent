@@ -6,10 +6,8 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM nginx:alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-EXPOSE 80
-ENTRYPOINT ["/entrypoint.sh"]
+FROM node:20-alpine
+RUN npm install -g serve
+COPY --from=builder /app/dist /dist
+EXPOSE 3000
+CMD ["serve", "-s", "/dist"]
