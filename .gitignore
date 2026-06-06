@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Logs
+backend/logs/*.jsonl
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# uv
+.uv/
+uv.lock

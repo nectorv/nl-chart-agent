@@ -1,0 +1,170 @@
+iso_code,country_name,region,income_group,population_2023,capital_city
+AFG,Afghanistan,South Asia,Low income,42239854,Kabul
+AGO,Angola,Sub-Saharan Africa,Lower middle income,36684202,Luanda
+ALB,Albania,Europe & Central Asia,Upper middle income,2793592,Tirana
+ARE,United Arab Emirates,Middle East & North Africa,High income,9516000,Abu Dhabi
+ARG,Argentina,Latin America & Caribbean,Upper middle income,46654581,Buenos Aires
+ARM,Armenia,Europe & Central Asia,Upper middle income,2777970,Yerevan
+AUS,Australia,East Asia & Pacific,High income,26177413,Canberra
+AUT,Austria,Europe & Central Asia,High income,9120813,Vienna
+AZE,Azerbaijan,Europe & Central Asia,Upper middle income,10412651,Baku
+BDI,Burundi,Sub-Saharan Africa,Low income,13238559,Gitega
+BEL,Belgium,Europe & Central Asia,High income,11692516,Brussels
+BEN,Benin,Sub-Saharan Africa,Lower middle income,13712828,Porto-Novo
+BFA,Burkina Faso,Sub-Saharan Africa,Low income,22673762,Ouagadougou
+BGD,Bangladesh,South Asia,Lower middle income,170000000,Dhaka
+BGR,Bulgaria,Europe & Central Asia,Upper middle income,6447710,Sofia
+BHR,Bahrain,Middle East & North Africa,High income,1472233,Manama
+BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,3210847,Sarajevo
+BLR,Belarus,Europe & Central Asia,Upper middle income,9408400,Minsk
+BOL,Bolivia,Latin America & Caribbean,Lower middle income,12079472,Sucre
+BRA,Brazil,Latin America & Caribbean,Upper middle income,215313498,Brasilia
+BTN,Bhutan,South Asia,Lower middle income,777486,Thimphu
+BWA,Botswana,Sub-Saharan Africa,Upper middle income,2630296,Gaborone
+CAF,Central African Republic,Sub-Saharan Africa,Low income,5579144,Bangui
+CAN,Canada,North America,High income,38781291,Ottawa
+CHE,Switzerland,Europe & Central Asia,High income,8730305,Bern
+CHL,Chile,Latin America & Caribbean,High income,19629590,Santiago
+CHN,China,East Asia & Pacific,Upper middle income,1412600000,Beijing
+CIV,Cote d'Ivoire,Sub-Saharan Africa,Lower middle income,27478249,Yamoussoukro
+CMR,Cameroon,Sub-Saharan Africa,Lower middle income,27914536,Yaounde
+COD,Congo Dem. Rep.,Sub-Saharan Africa,Low income,99010212,Kinshasa
+COG,Congo Rep.,Sub-Saharan Africa,Lower middle income,5835806,Brazzaville
+COL,Colombia,Latin America & Caribbean,Upper middle income,51874024,Bogota
+COM,Comoros,Sub-Saharan Africa,Lower middle income,836774,Moroni
+CPV,Cabo Verde,Sub-Saharan Africa,Lower middle income,587925,Praia
+CRI,Costa Rica,Latin America & Caribbean,Upper middle income,5213374,San Jose
+CUB,Cuba,Latin America & Caribbean,Upper middle income,11212191,Havana
+CYP,Cyprus,Europe & Central Asia,High income,1251488,Nicosia
+CZE,Czech Republic,Europe & Central Asia,High income,10898016,Prague
+DEU,Germany,Europe & Central Asia,High income,83369843,Berlin
+DJI,Djibouti,Middle East & North Africa,Lower middle income,1105557,Djibouti
+DNK,Denmark,Europe & Central Asia,High income,5932654,Copenhagen
+DOM,Dominican Republic,Latin America & Caribbean,Upper middle income,11117873,Santo Domingo
+DZA,Algeria,Middle East & North Africa,Lower middle income,44903225,Algiers
+ECU,Ecuador,Latin America & Caribbean,Upper middle income,18001000,Quito
+EGY,Egypt Arab Rep.,Middle East & North Africa,Lower middle income,104258327,Cairo
+ERI,Eritrea,Sub-Saharan Africa,Low income,3748901,Asmara
+ESP,Spain,Europe & Central Asia,High income,47415750,Madrid
+EST,Estonia,Europe & Central Asia,High income,1365884,Tallinn
+ETH,Ethiopia,Sub-Saharan Africa,Low income,126527060,Addis Ababa
+FIN,Finland,Europe & Central Asia,High income,5545475,Helsinki
+FJI,Fiji,East Asia & Pacific,Upper middle income,929766,Suva
+FRA,France,Europe & Central Asia,High income,68042591,Paris
+GAB,Gabon,Sub-Saharan Africa,Upper middle income,2388992,Libreville
+GBR,United Kingdom,Europe & Central Asia,High income,67791400,London
+GEO,Georgia,Europe & Central Asia,Upper middle income,3688647,Tbilisi
+GHA,Ghana,Sub-Saharan Africa,Lower middle income,32935969,Accra
+GIN,Guinea,Sub-Saharan Africa,Lower middle income,13531906,Conakry
+GMB,Gambia,Sub-Saharan Africa,Low income,2639916,Banjul
+GNB,Guinea-Bissau,Sub-Saharan Africa,Low income,2026778,Bissau
+GNQ,Equatorial Guinea,Sub-Saharan Africa,Upper middle income,1674908,Malabo
+GRC,Greece,Europe & Central Asia,High income,10432481,Athens
+GTM,Guatemala,Latin America & Caribbean,Upper middle income,17843908,Guatemala City
+HND,Honduras,Latin America & Caribbean,Lower middle income,10278345,Tegucigalpa
+HRV,Croatia,Europe & Central Asia,High income,3888529,Zagreb
+HTI,Haiti,Latin America & Caribbean,Lower middle income,11724763,Port-au-Prince
+HUN,Hungary,Europe & Central Asia,High income,9967308,Budapest
+IDN,Indonesia,East Asia & Pacific,Upper middle income,277534122,Jakarta
+IND,India,South Asia,Lower middle income,1428627663,New Delhi
+IRL,Ireland,Europe & Central Asia,High income,5056935,Dublin
+IRN,Iran Islamic Rep.,Middle East & North Africa,Lower middle income,88550570,Tehran
+IRQ,Iraq,Middle East & North Africa,Upper middle income,42164965,Baghdad
+ISL,Iceland,Europe & Central Asia,High income,372295,Reykjavik
+ISR,Israel,Middle East & North Africa,High income,9726000,Jerusalem
+ITA,Italy,Europe & Central Asia,High income,59030133,Rome
+JAM,Jamaica,Latin America & Caribbean,Upper middle income,2820000,Kingston
+JOR,Jordan,Middle East & North Africa,Upper middle income,10203140,Amman
+JPN,Japan,East Asia & Pacific,High income,125124989,Tokyo
+KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,19397998,Astana
+KEN,Kenya,Sub-Saharan Africa,Lower middle income,55100586,Nairobi
+KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,6979000,Bishkek
+KHM,Cambodia,East Asia & Pacific,Lower middle income,17218682,Phnom Penh
+KOR,Korea Rep.,East Asia & Pacific,High income,51744876,Seoul
+KWT,Kuwait,Middle East & North Africa,High income,4310108,Kuwait City
+LAO,Lao PDR,East Asia & Pacific,Lower middle income,7633779,Vientiane
+LBN,Lebanon,Middle East & North Africa,Lower middle income,5296814,Beirut
+LBR,Liberia,Sub-Saharan Africa,Low income,5418377,Monrovia
+LBY,Libya,Middle East & North Africa,Upper middle income,7186940,Tripoli
+LKA,Sri Lanka,South Asia,Lower middle income,22037000,Sri Jayawardenepura Kotte
+LSO,Lesotho,Sub-Saharan Africa,Lower middle income,2281454,Maseru
+LTU,Lithuania,Europe & Central Asia,High income,2857279,Vilnius
+LUX,Luxembourg,Europe & Central Asia,High income,672050,Luxembourg
+LVA,Latvia,Europe & Central Asia,High income,1830211,Riga
+MAR,Morocco,Middle East & North Africa,Lower middle income,37840044,Rabat
+MDA,Moldova,Europe & Central Asia,Lower middle income,2512758,Chisinau
+MDG,Madagascar,Sub-Saharan Africa,Low income,29611714,Antananarivo
+MEX,Mexico,Latin America & Caribbean,Upper middle income,128455567,Mexico City
+MKD,North Macedonia,Europe & Central Asia,Upper middle income,2093599,Skopje
+MLI,Mali,Sub-Saharan Africa,Low income,22414000,Bamako
+MMR,Myanmar,East Asia & Pacific,Lower middle income,54409800,Naypyidaw
+MNG,Mongolia,East Asia & Pacific,Lower middle income,3398366,Ulaanbaatar
+MOZ,Mozambique,Sub-Saharan Africa,Low income,32790338,Maputo
+MRT,Mauritania,Sub-Saharan Africa,Lower middle income,4614974,Nouakchott
+MUS,Mauritius,Sub-Saharan Africa,Upper middle income,1261208,Port Louis
+MWI,Malawi,Sub-Saharan Africa,Low income,20405317,Lilongwe
+MYS,Malaysia,East Asia & Pacific,Upper middle income,33574341,Kuala Lumpur
+NAM,Namibia,Sub-Saharan Africa,Upper middle income,2604172,Windhoek
+NER,Niger,Sub-Saharan Africa,Low income,25252722,Niamey
+NGA,Nigeria,Sub-Saharan Africa,Lower middle income,218541212,Abuja
+NIC,Nicaragua,Latin America & Caribbean,Lower middle income,6948392,Managua
+NLD,Netherlands,Europe & Central Asia,High income,17890000,Amsterdam
+NOR,Norway,Europe & Central Asia,High income,5425270,Oslo
+NPL,Nepal,South Asia,Lower middle income,30034989,Kathmandu
+NZL,New Zealand,East Asia & Pacific,High income,5123400,Wellington
+OMN,Oman,Middle East & North Africa,High income,4520471,Muscat
+PAK,Pakistan,South Asia,Lower middle income,231402117,Islamabad
+PAN,Panama,Latin America & Caribbean,Upper middle income,4351267,Panama City
+PER,Peru,Latin America & Caribbean,Upper middle income,33359418,Lima
+PHL,Philippines,East Asia & Pacific,Lower middle income,115559009,Manila
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,10329931,Port Moresby
+POL,Poland,Europe & Central Asia,High income,37840001,Warsaw
+PRK,Korea Dem. Rep.,East Asia & Pacific,Low income,25971909,Pyongyang
+PRT,Portugal,Europe & Central Asia,High income,10247605,Lisbon
+PRY,Paraguay,Latin America & Caribbean,Upper middle income,7359000,Asuncion
+PSE,West Bank and Gaza,Middle East & North Africa,Lower middle income,5250072,Ramallah
+QAT,Qatar,Middle East & North Africa,High income,2940000,Doha
+ROU,Romania,Europe & Central Asia,High income,19237691,Bucharest
+RUS,Russian Federation,Europe & Central Asia,Upper middle income,144713314,Moscow
+RWA,Rwanda,Sub-Saharan Africa,Low income,13776698,Kigali
+SAU,Saudi Arabia,Middle East & North Africa,High income,36947025,Riyadh
+SDN,Sudan,Sub-Saharan Africa,Low income,46874204,Khartoum
+SEN,Senegal,Sub-Saharan Africa,Lower middle income,17763163,Dakar
+SGP,Singapore,East Asia & Pacific,High income,5637022,Singapore
+SLE,Sierra Leone,Sub-Saharan Africa,Low income,8605718,Freetown
+SLV,El Salvador,Latin America & Caribbean,Lower middle income,6364943,San Salvador
+SOM,Somalia,Sub-Saharan Africa,Low income,17065581,Mogadishu
+SRB,Serbia,Europe & Central Asia,Upper middle income,6834326,Belgrade
+SSD,South Sudan,Sub-Saharan Africa,Low income,10913164,Juba
+STP,Sao Tome and Principe,Sub-Saharan Africa,Lower middle income,227380,Sao Tome
+SUR,Suriname,Latin America & Caribbean,Upper middle income,618040,Paramaribo
+SVK,Slovak Republic,Europe & Central Asia,High income,5460721,Bratislava
+SVN,Slovenia,Europe & Central Asia,High income,2110000,Ljubljana
+SWE,Sweden,Europe & Central Asia,High income,10521556,Stockholm
+SWZ,Eswatini,Sub-Saharan Africa,Lower middle income,1202000,Mbabane
+SYC,Seychelles,Sub-Saharan Africa,High income,107660,Victoria
+SYR,Syrian Arab Republic,Middle East & North Africa,Low income,21324000,Damascus
+TCD,Chad,Sub-Saharan Africa,Low income,17963211,N'Djamena
+TGO,Togo,Sub-Saharan Africa,Low income,8848699,Lome
+THA,Thailand,East Asia & Pacific,Upper middle income,71801279,Bangkok
+TJK,Tajikistan,Europe & Central Asia,Low income,9952787,Dushanbe
+TKM,Turkmenistan,Europe & Central Asia,Upper middle income,6117924,Ashgabat
+TLS,Timor-Leste,East Asia & Pacific,Lower middle income,1360596,Dili
+TON,Tonga,East Asia & Pacific,Upper middle income,100651,Nuku'alofa
+TTO,Trinidad and Tobago,Latin America & Caribbean,High income,1534937,Port of Spain
+TUN,Tunisia,Middle East & North Africa,Lower middle income,11818619,Tunis
+TUR,Turkey,Europe & Central Asia,Upper middle income,85341241,Ankara
+TZA,Tanzania,Sub-Saharan Africa,Lower middle income,63298550,Dodoma
+UGA,Uganda,Sub-Saharan Africa,Low income,47249585,Kampala
+UKR,Ukraine,Europe & Central Asia,Lower middle income,43531422,Kyiv
+URY,Uruguay,Latin America & Caribbean,High income,3423108,Montevideo
+USA,United States,North America,High income,335893238,Washington D.C.
+UZB,Uzbekistan,Europe & Central Asia,Lower middle income,36601582,Tashkent
+VEN,Venezuela RB,Latin America & Caribbean,Upper middle income,28199867,Caracas
+VNM,Vietnam,East Asia & Pacific,Lower middle income,97338583,Hanoi
+VUT,Vanuatu,East Asia & Pacific,Lower middle income,327777,Port Vila
+WSM,Samoa,East Asia & Pacific,Lower middle income,218764,Apia
+YEM,Yemen Rep.,Middle East & North Africa,Low income,33696614,Sana'a
+ZAF,South Africa,Sub-Saharan Africa,Upper middle income,60414495,Pretoria
+ZMB,Zambia,Sub-Saharan Africa,Lower middle income,20017675,Lusaka
+ZWE,Zimbabwe,Sub-Saharan Africa,Lower middle income,15178979,Harare
