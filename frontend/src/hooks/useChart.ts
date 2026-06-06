@@ -21,6 +21,8 @@ function parseSSEEvent(eventType: string, data: string): StreamEvent | null {
   }
 }
 
+const API_BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
+
 async function* streamSSE(
   url: string,
   body: Record<string, unknown>,
@@ -72,7 +74,7 @@ export function useChart() {
     setState({ phase: "loading", trace: [] });
 
     try {
-      for await (const raw of streamSSE("/api/query", { query }, ctrl.signal)) {
+      for await (const raw of streamSSE(`${API_BASE}/api/query`, { query }, ctrl.signal)) {
         const ev = parseSSEEvent(raw.event, raw.data);
         if (!ev) continue;
 
@@ -124,7 +126,7 @@ export function useChart() {
 
     try {
       for await (const raw of streamSSE(
-        "/api/clarify",
+        `${API_BASE}/api/clarify`,
         { session_id: sessionId, answer },
         ctrl.signal
       )) {
