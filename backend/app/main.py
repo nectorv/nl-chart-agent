@@ -28,6 +28,7 @@ def create_app() -> FastAPI:
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://frontend-production-a3ae.up.railway.app",
+        "https://frontend-production-50d4.up.railway.app",
     ]
     if frontend_url:
         allowed_origins.append(frontend_url)
