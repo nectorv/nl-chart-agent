@@ -142,6 +142,7 @@ async def get_alignment_plan(
         resp = await client.messages.create(
             model="claude-sonnet-5",
             max_tokens=800,
+            thinking={"type": "disabled"},
             messages=[
                 {
                     "role": "user",

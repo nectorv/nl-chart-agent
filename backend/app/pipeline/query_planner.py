@@ -95,6 +95,7 @@ async def run_query_planner(
         resp = await client.messages.create(
             model="claude-sonnet-5",
             max_tokens=1000,
+            thinking={"type": "disabled"},
             messages=[
                 {
                     "role": "user",

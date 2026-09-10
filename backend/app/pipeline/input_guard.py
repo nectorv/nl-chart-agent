@@ -72,6 +72,7 @@ async def run_input_guard(
         resp = await client.messages.create(
             model="claude-sonnet-5",
             max_tokens=200,
+            thinking={"type": "disabled"},
             messages=[{"role": "user", "content": _GUARD_PROMPT.format(query=query)}],
         )
         raw = resp.content[0].text.strip()

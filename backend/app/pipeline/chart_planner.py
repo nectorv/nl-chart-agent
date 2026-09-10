@@ -100,6 +100,7 @@ async def run_chart_planner(
         resp = await client.messages.create(
             model="claude-sonnet-5",
             max_tokens=1000,
+            thinking={"type": "disabled"},
             messages=[
                 {
                     "role": "user",
