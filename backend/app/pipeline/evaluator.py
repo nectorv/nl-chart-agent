@@ -70,9 +70,8 @@ async def run_evaluator(
 
     try:
         resp = await client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-5",
             max_tokens=400,
-            temperature=0.3,
             messages=[
                 {
                     "role": "user",

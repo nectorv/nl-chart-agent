@@ -93,9 +93,8 @@ async def run_query_planner(
 
     try:
         resp = await client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-5",
             max_tokens=1000,
-            temperature=0,
             messages=[
                 {
                     "role": "user",
