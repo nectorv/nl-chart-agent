@@ -6,6 +6,7 @@ import time
 import anthropic
 from pydantic import BaseModel
 
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_pipeline_step
 
 logger = get_logger(__name__)
@@ -75,10 +76,7 @@ async def run_input_guard(
             thinking={"type": "disabled"},
             messages=[{"role": "user", "content": _GUARD_PROMPT.format(query=query)}],
         )
-        raw = resp.content[0].text.strip()
-        import json
-
-        parsed = json.loads(raw)
+        parsed = parse_json_response(resp.content[0].text)
         category = parsed.get("category", "pass")
         question = parsed.get("suggested_question")
     except Exception as exc:

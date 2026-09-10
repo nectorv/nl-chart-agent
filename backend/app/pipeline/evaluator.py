@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-import json
 import time
 
 import anthropic
 
 from ..models.state import ChartEvaluation, PipelineState
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_eval_iteration, log_pipeline_step
 
 logger = get_logger(__name__)
@@ -83,8 +83,8 @@ async def run_evaluator(
                 }
             ],
         )
-        raw = resp.content[0].text.strip()
-        evaluation = ChartEvaluation.model_validate_json(raw)
+        parsed = parse_json_response(resp.content[0].text)
+        evaluation = ChartEvaluation.model_validate(parsed)
     except Exception as exc:
         logger.error("Evaluator LLM error: %s", exc)
         evaluation = ChartEvaluation(

@@ -8,6 +8,7 @@ from pydantic import BaseModel, ValidationError
 
 from ..models.chart_specs import CHART_TYPE_MAP, BaseChartSpec
 from ..models.state import ChartPlanResult, ColumnProfile, ReconciliationResult
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_pipeline_step
 
 logger = get_logger(__name__)
@@ -113,8 +114,7 @@ async def run_chart_planner(
                 }
             ],
         )
-        raw = resp.content[0].text.strip()
-        parsed = json.loads(raw)
+        parsed = parse_json_response(resp.content[0].text)
     except Exception as exc:
         logger.error("Chart planner LLM error: %s", exc)
         duration = int((time.monotonic() - t0) * 1000)

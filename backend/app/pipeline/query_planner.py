@@ -7,6 +7,7 @@ import anthropic
 from pydantic import BaseModel
 
 from ..mcp.router import MCPRouter, ToolDefinition
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_pipeline_step
 
 logger = get_logger(__name__)
@@ -103,8 +104,8 @@ async def run_query_planner(
                 }
             ],
         )
-        raw = resp.content[0].text.strip()
-        plan = FetchPlan.model_validate_json(raw)
+        parsed = parse_json_response(resp.content[0].text)
+        plan = FetchPlan.model_validate(parsed)
     except Exception as exc:
         logger.error("Query planner error: %s", exc)
         plan = FetchPlan(tool_calls=[], can_be_parallel=False)

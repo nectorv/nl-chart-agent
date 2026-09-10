@@ -9,6 +9,7 @@ import anthropic
 import pandas as pd
 
 from ..models.state import ColumnProfile, FetchResult, ReconciliationResult
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_pipeline_step
 from ..utils.sampling import sample_dataframe
 
@@ -150,8 +151,8 @@ async def get_alignment_plan(
                 }
             ],
         )
-        raw = resp.content[0].text.strip()
-        return AlignmentPlan.model_validate_json(raw)
+        parsed = parse_json_response(resp.content[0].text)
+        return AlignmentPlan.model_validate(parsed)
     except Exception as exc:
         logger.error("Alignment plan error: %s", exc)
         return AlignmentPlan()

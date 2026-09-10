@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-import json
 import time
 
 import anthropic
 
 from ..models.state import FetchResult, PipelineState, ProvenanceItem, TraceEvent
 from ..models.responses import ChartResponse
+from ..utils.llm_json import parse_json_response
 from ..utils.logger import get_logger, log_pipeline_step
 
 logger = get_logger(__name__)
@@ -50,8 +50,7 @@ async def run_renderer(
                     }
                 ],
             )
-            raw = resp.content[0].text.strip()
-            spec = json.loads(raw)
+            spec = parse_json_response(resp.content[0].text)
             codegen_used = True
             logger.warning("Codegen spec used for query: %s", state["query"])
         except Exception as exc:
